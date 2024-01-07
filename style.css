@@ -111,6 +111,7 @@ button{
     font-weight: var(--fw-700);
     padding: 1rem .7rem;
     border-radius: .5rem;
+ 
    
 }
 button:hover{

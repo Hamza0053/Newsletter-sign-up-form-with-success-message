@@ -18,6 +18,9 @@ function subscribe(){
     else{
         console.log("not mated")
         emailfield.style.color="red"
+         emailfield.style.backgroundColor=" rgba(255, 0, 0, 0.404)"
+         emailfield.style.borderColor="red"
+
         emailerror.style.display="block"
     }
 }
