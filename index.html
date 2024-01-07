@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="main-in">
+  
+    <div class="updated">
+
+      <h1>  Stay updated!</h1>
+      <p>  Join 60,000+ product managers receiving monthly updates on:</p>
+    
+<div class="list">
+
+<div class="list-item">
+
+  <img src="assets/images/icon-success.svg" alt="">
+  <p>
+    Product discovery and building what matters</p>
+</div>
+
+
+<div class="list-item">
+
+  <img src="assets/images/icon-success.svg" alt="">
+  <p>  Measuring to ensure updates are a success
+ </p>
+</div>
+
+
+<div class="list-item">
+
+  <img src="assets/images/icon-success.svg" alt="">
+  <p>   And much more!</p>
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="input-div">
+
+  <label >  Email address</label>
+  <input type="text" placeholder="  hamza@company.com" class="Input-field">
+  <span class="email-error">Valid Email Required</span>
+</div>
+<button class="subscribe" onclick="subscribe()">
+  Subscribe to monthly newsletter
+</button >
+</div>
+
+<div class="thanks-full">
+  <img src="assets/images/icon-success.svg
+  " alt="">
+  <h1>Thanks for subscribing!</h1>
+  <p>
+    A confirmation email has been sent to 
+    <span class="send-email">ash@loremcompany.com. </span>
+    Please open it and click the button inside to confirm your subscription.</p>
+  <button onclick="dismissMe()">
+    Dismiss message</button>
+</div>
+<div>
+  <picture>
+    <source media="(min-width:901px)"
+     srcset="assets/images/illustration-sign-up-desktop.svg">
+    <source media="(max-width:900px)"
+      srcset="assets/images/illustration-sign-up-mobile.svg">
+     <img class="Img-picture" src="assets/images/illustration-sign-up-desktop.svg" alt="Example image">
+  </picture>
+</div>
+
+
+
+  
+</main>
+<script src="app.js"></script> 
+</body>
+</html>
